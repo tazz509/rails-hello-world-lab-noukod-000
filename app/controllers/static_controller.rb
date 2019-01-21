@@ -1,5 +1,5 @@
 class StaticController < ApplicationController
-  def about
-  render "hello"
+  def hello
+  render "hello.html.erb"
 end
 end
