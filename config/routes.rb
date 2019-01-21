@@ -40,6 +40,8 @@ Rails.application.routes.draw do
   #     end
   #   end
 
+  get 'hello', to: 'static#hello'
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
